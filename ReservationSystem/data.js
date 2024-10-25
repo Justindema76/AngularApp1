@@ -1,27 +1,43 @@
 module.exports = function () {
   return {
-  products: [
-  { id: 1, name: "Kayak", category: "Watersports",
-  description: "A boat for one person", price: 275 },
-  { id: 2, name: "Lifejacket", category: "Watersports",
-  description: "Protective and fashionable", price: 48.95 },
-  { id: 3, name: "Soccer Ball", category: "Soccer",
-  description: "FIFA-approved size and weight", price: 19.50 },
-  { id: 4, name: "Corner Flags", category: "Soccer",
-  description: "Give your playing field a professional touch",
-  price: 34.95 },
-  { id: 5, name: "Stadium", category: "Soccer",
-  description: "Flat-packed 35,000-seat stadium", price: 79500 },
-  { id: 6, name: "Thinking Cap", category: "Chess",
-  description: "Improve brain efficiency by 75%", price: 16 },
-  { id: 7, name: "Unsteady Chair", category: "Chess",
-  description: "Secretly give your opponent a disadvantage",
-  price: 29.95 },
-  { id: 8, name: "Human Chess Board", category: "Chess",
-  description: "A fun game for the family", price: 75 },
-  { id: 9, name: "Bling King", category: "Chess",
-  description: "Gold-plated, diamond-studded King", price: 1200 }
-  ],
-  orders: []
-  }
- }
+    location: [
+      {
+        id: 1,
+        location: "CN Tower",
+        description: "A famous landmark in Toronto, Canada offering panoramic views of the city from its observation deck.",
+        price: 30, // Price in your preferred currency
+      },
+      {
+        id: 2,
+        location: "Banff National Park",
+        description: "A national park located in the Rocky Mountains, known for its stunning landscapes and outdoor activities.",
+        price: 50,
+      },
+      {
+        id: 3,
+        location: "Niagara Falls",
+        description: "One of the most famous waterfalls in the world, straddling the border between Canada and the United States.",
+        price: 25,
+      },
+      {
+        id: 4,
+        location: "Stanley Park",
+        description: "A large urban park in Vancouver, famous for its seawall, biking trails, and scenic views.",
+        price: 15,
+      },
+      {
+        id: 5,
+        location: "Gros Morne National Park",
+        description: "A UNESCO World Heritage site in Newfoundland, known for its dramatic cliffs, fjords, and hiking trails.",
+        price: 40,
+      },
+      {
+        id: 6,
+        location: "Whistler Blackcomb",
+        description: "A major ski resort in British Columbia, offering year-round activities, including skiing, snowboarding, and hiking.",
+        price: 60,
+      },
+    ],
+    reservations: [],
+  };
+};
