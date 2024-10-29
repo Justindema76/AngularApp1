@@ -1,0 +1,29 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Ensuring consistent font family */
+}
+
+/* Custom Button Styles */
+.custom-button {
+  background-color: #4b2e4d; /* Primary color */
+  border: none; /* No border */
+  color: #fff; /* White text */
+  font-family: 'Roboto', sans-serif; /* Consistent font family */
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.custom-button:hover {
+  background-color: #4b2e4d; /* Lighter on hover */
+  transform: scale(1.05); /* Slight scaling on hover */
+}
+
+.btn-secondary {
+  background-color: #555; /* Secondary button color */
+  color: #fff; /* White text */
+}
+
+.btn-secondary:hover {
+  background-color: #777; /* Lighter on hover */
+}

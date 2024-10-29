@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+  font-family: 'Garamond', serif; /* Default font family */
+  font-size: 16px; /* Base font size */
+  line-height: 1.6; /* Default line height */
+  color: #333; /* Default text color */
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5em; /* 40px */
+  font-family: 'Cinzel', serif; /* Specific font for headings */
+  color: #4b2e4d; /* Heading color */
+}
+
+h2 {
+  font-size: 2em; /* 32px */
+  font-family: 'Cinzel', serif; /* Specific font for headings */
+  color: #4b2e4d; /* Heading color */
+}
+
+h3 {
+  font-size: 1.5em; /* 24px */
+  font-family: 'Cinzel', serif; /* Specific font for headings */
+  color: #4b2e4d; /* Heading color */
+}
+
+h4 {
+  font-size: 1.25em; /* 20px */
+  font-family: 'Cinzel', serif; /* Specific font for headings */
+  color: #4b2e4d; /* Heading color */
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.2em; /* 16px */
+  margin: 0.5em 0; /* Margin for spacing */
+}
+
+/* Buttons */
+.btn {
+  font-size: 1em; /* 16px */
+  padding: 0.5em 1em; /* Padding for buttons */
+}
+
+/* Table Headers */
+th {
+  font-size: 1em; /* 16px */
+  text-align: left; /* Left align table headers */
+}
+
+/* Table Data */
+td {
+  font-size: 1.2em; /* 14px */
+}
+
+/* Smaller Text */
+small {
+  font-size: 0.75em; /* 12px */
+}
+
