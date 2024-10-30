@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
 import { map } from "rxjs/operators"; // Import map operator
-import { Product } from "./product.model";
+import { Product } from "./reserve.model";
 import { Order } from "./order.model";
 import { HttpHeaders } from '@angular/common/http';
 

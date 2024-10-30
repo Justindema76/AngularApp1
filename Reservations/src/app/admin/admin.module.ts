@@ -8,8 +8,8 @@ import { AuthComponent } from "./auth.component";
 import { AdminComponent } from "./admin.component";
 import { AuthGuard } from "./auth.guard";
 import { MaterialFeatures } from "./material.module";
-import { ProductTableComponent } from "./productTable.component";
-import { ProductEditorComponent } from "./productEditor.component";
+import { ProductTableComponent } from "./reserveTable.component";
+import { ProductEditorComponent } from "./reserveEditor.component";
 import { OrderTableComponent } from "./orderTable.component";
 
 let routing = RouterModule.forChild([

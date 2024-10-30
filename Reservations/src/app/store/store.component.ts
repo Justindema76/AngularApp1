@@ -1,7 +1,7 @@
 // StoreComponent.ts
 import { Component } from "@angular/core";
-import { Product } from "../model/product.model";
-import { ProductRepository } from "../model/product.repository";
+import { Product } from "../model/reserve.model";
+import { ProductRepository } from "../model/reserve.repository";
 import { Cart } from "../model/cart.model";
 import { Router } from "@angular/router";
 
