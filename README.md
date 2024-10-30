@@ -1,9 +1,9 @@
 # AngularApp1 - Assignment 1
-# Game of Thrones Tours Application
+# Game of Thrones Tours/Reservations Application - Based on the Sports Store App.  
 
 ## Overview
 
-The **Game of Thrones Tours Application** is an online platform designed to allow users to explore and book various tours inspired by the iconic series. The app provides users with the ability to view tour options, select dates and times, and place orders. 
+The **Game of Thrones Tours & Reservations Application** is an online platform designed to allow users to explore and resereve time slots for various tours inspired by the iconic series. The app provides users with the ability to view tour options, select dates and times, and place orders. 
 
 ## Features
 
@@ -41,3 +41,7 @@ The **Game of Thrones Tours Application** is an online platform designed to allo
 - After placing an order, users are presented with a confirmation message thanking them for their purchase.
 - A button is provided to return to the store for further purchases.
 
+
+### 5. Admin Login / Logout
+- Administators are able to login and logout
+- Create and edit product (Locations)
